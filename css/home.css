@@ -1,0 +1,79 @@
+.homepage {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Set text color */
+    background-color: rgba(0, 0, 255, 0.9); 
+}
+
+
+
+
+
+.nav{
+    width:100%;
+    height:70px;
+    border-bottom:2px solid rgb(251, 250, 250) ;
+    display:flex;
+    color:white;
+    font-size: 22px;
+    align-items: center;
+    justify-content: space-around;
+   
+   
+}
+.nav a{
+    color:white;
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.home_body{
+    color:white;
+    width:90%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.home_contents{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  
+    width:90%;
+
+}
+.slogan{
+    width:90%;
+}
+.btn{
+    background-color:transparent;
+    margin: 5px, 8px;
+    height: 50px; 
+    width: 150px;
+    border-color: gold;
+    border-radius:12px;
+    color:white;
+    font-size: 1.0em;
+}
+button{}
+
+.home{
+    width:100%;
+    height: 100%;
+    background-color: rgb(10, 10, 41);
+    opacity: 0.7;
+    z-index: 1;
+}

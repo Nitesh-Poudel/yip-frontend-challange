@@ -1,0 +1,23 @@
+.news{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+.news_container{
+    width:90%;
+   
+    height:100%;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.news_heading{
+    margin: 100px;
+    width:60%;
+    height:100px;
+    text-align: center;
+}
